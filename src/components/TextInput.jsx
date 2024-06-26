@@ -1,6 +1,6 @@
 // src/components/TextInput.js
 import React from 'react';
-import './global.css';
+import '../global.css';
 
 const TextInput = ({ type = "text", label, value, onChange }) => (
   <div>

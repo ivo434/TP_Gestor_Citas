@@ -1,6 +1,6 @@
 // src/components/Form.js
 import React, { useState } from 'react';
-import './global.css';
+import '../global.css';
 import TextInput from './TextInput';
 import Button from './Button';
 
