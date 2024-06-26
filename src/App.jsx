@@ -21,11 +21,11 @@ function App() {
       <div className="container">
       <h1>ADMINISTRADOR DE PACIENTES</h1>
       <div className="row">
-        <div className="one-half column">
+        <div className="containerI">
           <h2>Crear mi Cita</h2>
           <Form onSubmit={addCita} />
         </div>
-        <div className="one-half column">
+        <div className="containerD">
           <h2>Administra tus citas</h2>
           {citas.map((cita, index) => (
             <Card key={index} {...cita} onDelete={() => deleteCita(index)} />

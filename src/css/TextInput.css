@@ -1,0 +1,12 @@
+input.u-full-width,
+textarea.u-full-width {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+textarea.u-full-width {
+  height: 80px;
+}

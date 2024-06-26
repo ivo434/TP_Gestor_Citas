@@ -1,5 +1,3 @@
-/* global.css */
-
 html {
     min-height: 100%;
   }
@@ -101,4 +99,20 @@ html {
     text-align: center;
     font-family: 'Staatliches', cursive;
   }
-  
+  .Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .containerI{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 30%;
+  }
+  .containerD{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 30%;
+  }

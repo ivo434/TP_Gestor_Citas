@@ -1,6 +1,5 @@
-// src/components/Card.js
 import React from 'react';
-import '../global.css';
+import '../css/Card.css';
 import Button from './Button';
 
 const Card = ({ mascota, propietario, fecha, hora, sintomas, onDelete }) => (
